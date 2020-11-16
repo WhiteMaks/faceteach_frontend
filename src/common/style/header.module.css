@@ -1,0 +1,40 @@
+.header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #ffd800;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    min-width: 600px;
+}
+
+.hed_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.hed_ul li {
+    padding: 12px 0;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.hed_ul li a {
+    position: relative;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #916a00;
+    /*background-color: black;*/
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.hed_ul li a:hover {
+    color: #371b00;
+    background-color: #f0c900;
+}
+
+.hed_ul li:last-child {
+    margin-left: auto;
+}
