@@ -1,0 +1,24 @@
+.item {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.item a {
+    /*background-color: #ffd800;*/
+    /*border: rgba(185,146,0,0.51) solid 2px;*/
+    /*box-shadow: 0 0 5px rgba(0,0,0,0.5);*/
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    color: #916a00;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.item a:hover {
+    /*background-color: rgba(0,0,0,0.05);*/
+    color: #371b00;
+}

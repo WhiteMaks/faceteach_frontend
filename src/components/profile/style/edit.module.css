@@ -1,0 +1,18 @@
+.block_form {
+    margin: 0 auto;
+    padding: 25px;
+    /*background-color: blue;*/
+}
+
+.block_form div {
+    /*display: inline-block;*/
+    /*background-color: red;*/
+    padding: 10px;
+    display: flex;
+}
+
+.block_form label {
+    /*font-weight: bold;*/
+    display: inline-block;
+    width: 150px;
+}
